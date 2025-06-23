@@ -1,0 +1,8 @@
+{% extends "list.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block header %}{{ title }}{% endblock %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='JS/students_list.js') }}"></script>
+{% endblock %}

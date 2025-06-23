@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/list_styles.css') }}">
+<script src="{{ url_for('static', filename='JS/list.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+    <div id="items-list" class="items-list">Загрузка...</div>
+{% endblock %}

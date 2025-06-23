@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-text-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--tg-theme-accent-text-color);
+    margin: 0;
+}
